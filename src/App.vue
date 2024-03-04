@@ -1,17 +1,19 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <!-- <HelloWorld msg="Welcome to Your Vue.js App"/>? -->
+    <ReSize />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+// import HelloWorld from './components/HelloWorld.vue'
+import ReSize from './components/ReSize.vue'
+import 'vue-advanced-cropper/dist/style.css';
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    ReSize
   }
 }
 </script>
